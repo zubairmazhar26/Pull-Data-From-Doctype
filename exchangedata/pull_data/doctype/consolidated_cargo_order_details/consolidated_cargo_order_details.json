@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-12-07 16:48:14.579686",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ship_at_freight",
+  "purchase_invoice",
+  "item_id",
+  "qty",
+  "amount",
+  "base_amount",
+  "material_request",
+  "material_request_item",
+  "bom",
+  "received_qty",
+  "customs_tariff_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "ship_at_freight",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Shipment at Freight Forwarder",
+   "options": "Shipment at Freight Forwarder"
+  },
+  {
+   "fieldname": "purchase_invoice",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Purchase Invoice No",
+   "options": "Purchase Invoice"
+  },
+  {
+   "fieldname": "item_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item ID",
+   "options": "Item"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "base_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Subtotal"
+  },
+  {
+   "fieldname": "material_request",
+   "fieldtype": "Link",
+   "label": "Material Request",
+   "options": "Material Request"
+  },
+  {
+   "fieldname": "material_request_item",
+   "fieldtype": "Data",
+   "label": "Material Request Item"
+  },
+  {
+   "fieldname": "bom",
+   "fieldtype": "Link",
+   "label": "Bom",
+   "options": "BOM"
+  },
+  {
+   "fieldname": "received_qty",
+   "fieldtype": "Data",
+   "label": "Received Qty"
+  },
+  {
+   "fieldname": "customs_tariff_number",
+   "fieldtype": "Data",
+   "label": "Customs Tariff Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-07 23:52:36.088965",
+ "modified_by": "Administrator",
+ "module": "Pull Data",
+ "name": "Consolidated Cargo Order Details",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

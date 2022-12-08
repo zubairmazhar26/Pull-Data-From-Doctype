@@ -1,0 +1,55 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shipment at Freight</span>\",\"col\":12}},{\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Consolidated Cargo Order\",\"col\":4}},{\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Shipment at Freight Forwarder\",\"col\":4}}]",
+ "creation": "2022-12-08 00:02:43.299611",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-monthly-rank",
+ "idx": 0,
+ "label": "Shipment at Freight",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shipment at Freight Forwarder",
+   "link_count": 0,
+   "link_to": "Shipment at Freight Forwarder",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consolidated Cargo Order",
+   "link_count": 0,
+   "link_to": "Consolidated Cargo Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-12-08 00:14:04.967373",
+ "modified_by": "Administrator",
+ "module": "Pull Data",
+ "name": "Shipment at Freight",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Consolidated Cargo Order",
+   "label": "Consolidated Cargo Order"
+  },
+  {
+   "document_type": "Shipment at Freight Forwarder",
+   "label": "Shipment at Freight Forwarder"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [],
+ "title": "Shipment at Freight"
+}
