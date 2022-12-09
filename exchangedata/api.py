@@ -21,7 +21,7 @@ def make_purchase_receipt(source_name, target_doc=None):
 		source_name,
 		{
 			"Purchase Invoice": {
-				"doctype": "Shipment at Freight Forwarder",
+				"doctype": "pre_consolidados",
 				"validation": {
 					"docstatus": ["=", 1],
 				},
@@ -53,11 +53,11 @@ def make_purchase_receipt(source_name, target_doc=None):
 @frappe.whitelist()
 def make_consolidated_cargo(source_name, target_doc=None):
 	doc = get_mapped_doc(
-		"Shipment at Freight Forwarder",
+		"Pre-Consolidados",
 		source_name,
 		{
-			"Shipment at Freight Forwarder": {
-				"doctype": "Consolidated Cargo Order",
+			"Pre-Consolidados": {
+				"doctype": "Consolidados",
 				"validation": {
 					"docstatus": ["=", 1],
 				},
@@ -71,7 +71,7 @@ def make_consolidated_cargo(source_name, target_doc=None):
 					"qty":"qty",
 					"customs_tariff_number":"customs_tariff_number",
 					"received_qty":"received_qty",
-					"amount":"amount",
+					"rate":"amount",
 					"base_amount":"base_amount"
 				}
 			}
