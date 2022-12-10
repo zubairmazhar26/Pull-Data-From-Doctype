@@ -3,7 +3,6 @@
  "allow_rename": 1,
  "autoname": "format:Pre-Consolidados-{MM}-{#####}",
  "creation": "2022-12-09 09:27:45.620023",
- "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -60,9 +59,8 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2022-12-09 10:00:53.764878",
+ "modified": "2022-12-10 09:31:14.102317",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Pre-Consolidados",

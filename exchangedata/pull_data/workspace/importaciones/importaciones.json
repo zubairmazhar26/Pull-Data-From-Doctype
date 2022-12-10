@@ -1,0 +1,54 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Importaciones</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Doctype\",\"col\":4}}]",
+ "creation": "2022-12-08 23:26:32.853307",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "website",
+ "idx": 0,
+ "label": "Importaciones",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Doctype",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pre-Consolidados",
+   "link_count": 0,
+   "link_to": "Pre-Consolidados",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consolidados",
+   "link_count": 0,
+   "link_to": "Consolidados",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-12-10 09:39:06.540719",
+ "modified_by": "gtapias@lans.gt",
+ "module": "Pull Data",
+ "name": "Importaciones",
+ "owner": "gtapias@lans.gt",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 6.0,
+ "shortcuts": [],
+ "title": "Importaciones"
+}

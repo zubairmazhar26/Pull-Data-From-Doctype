@@ -20,9 +20,10 @@ frappe.ui.form.on('Consolidados', {
 					target: frm,
 					setters: {
 						supplier: frm.doc.supplier,
+						shipment_status:'Recibido Miami'
 					},
 					get_query_filters: {
-						docstatus: 1,
+						docstatus: 0,
 						company: frm.doc.company
 					}
 				})

@@ -59,7 +59,7 @@ def make_consolidated_cargo(source_name, target_doc=None):
 			"Pre-Consolidados": {
 				"doctype": "Consolidados",
 				"validation": {
-					"docstatus": ["=", 1],
+					"docstatus": ["=", 0],
 				},
 			},
 			"Shipment at Freight Details": {
@@ -82,3 +82,10 @@ def make_consolidated_cargo(source_name, target_doc=None):
 	doc.set_onload("ignore_price_list", True)
 
 	return doc
+@frappe.whitelist()
+def get_terrif(iname):
+	list1 = []
+	it = frappe.db.sql(""" select customs_tariff_number from `tabItem` where mineco_mi='Partida Autorizada - MI' and name=%s """,(iname))
+	if it:
+		list1 = [it[0][0]]
+	return list1

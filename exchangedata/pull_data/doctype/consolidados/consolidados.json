@@ -3,7 +3,6 @@
  "allow_rename": 1,
  "autoname": "format: Consolidados-{MM}-{#####}",
  "creation": "2022-12-09 09:28:51.000413",
- "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -36,9 +35,8 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2022-12-09 09:28:51.000413",
+ "modified": "2022-12-10 09:31:31.184503",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Consolidados",
