@@ -67,12 +67,8 @@ def make_consolidated_cargo(source_name, target_doc=None):
 				"field_map": {
 					"name": "consolidated_cargo_order_details",
 					"purchase_invoice": "purchase_invoice",
-                    "item_id": "item_id",
-					"qty":"qty",
 					"customs_tariff_number":"customs_tariff_number",
-					"received_qty":"received_qty",
-					"rate":"amount",
-					"base_amount":"base_amount"
+					"received_qty":"received_qty"
 				}
 			}
 		},

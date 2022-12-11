@@ -11,9 +11,16 @@
   "supplier",
   "column_break_3",
   "shipment_status",
+  "currency",
   "section_break_5",
   "shipment_at_freight_forwarder",
-  "amended_from"
+  "amended_from",
+  "section_break_8",
+  "total_qty",
+  "column_break_9",
+  "base_total",
+  "column_break_13",
+  "total"
  ],
  "fields": [
   {
@@ -56,11 +63,51 @@
   {
    "fieldname": "section_break_5",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "base_total",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Total",
+   "options": "Company:company:default_currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "Total",
+   "options": "currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_qty",
+   "fieldtype": "Float",
+   "label": "Total Quantity",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-12-10 09:31:14.102317",
+ "modified": "2022-12-10 22:27:41.538257",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Pre-Consolidados",
