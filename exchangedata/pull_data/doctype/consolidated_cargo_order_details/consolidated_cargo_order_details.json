@@ -9,14 +9,18 @@
   "ship_at_freight",
   "purchase_invoice",
   "item_id",
+  "item_name",
   "qty",
   "rate",
   "amount",
+  "uom",
+  "column_break_7",
   "material_request",
   "material_request_item",
   "bom",
   "received_qty",
-  "customs_tariff_number"
+  "customs_tariff_number",
+  "mineco_mi"
  ],
  "fields": [
   {
@@ -88,12 +92,33 @@
    "in_list_view": 1,
    "label": "Price",
    "options": "currency"
+  },
+  {
+   "fieldname": "mineco_mi",
+   "fieldtype": "Data",
+   "label": "Partida Autorizada MI"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "item_id.item_name",
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name"
+  },
+  {
+   "fetch_from": "item_id.stock_uom",
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "label": "UOM"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-12-10 22:19:31.369473",
+ "modified": "2022-12-13 10:06:30.710587",
  "modified_by": "Administrator",
  "module": "Pull Data",
  "name": "Consolidated Cargo Order Details",
