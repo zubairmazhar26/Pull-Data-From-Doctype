@@ -81,7 +81,7 @@ def make_consolidated_cargo(source_name, target_doc=None):
 @frappe.whitelist()
 def get_terrif(iname):
 	list1 = []
-	it = frappe.db.sql(""" select customs_tariff_number,mineco_mi from `tabItem` where mineco_mi='Partida Autorizada - MI' and name=%s """,(iname))
+	it = frappe.db.sql(""" select customs_tariff_number,mineco_mi from `tabItem` where name=%s """,(iname))
 	if it:
 		list1 = [it[0][0],it[0][1]]
 	return list1
