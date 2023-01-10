@@ -5,7 +5,7 @@ frappe.ui.form.on('Consolidados', {
 	refresh: function(frm) {
 		frm.events.add_custom_buttons(frm);
 		if (frm.doc.total > 0) {
-			frm.add_custom_button(__("Update Purchase Invoice With Consolidados"), function() {
+			frm.add_custom_button(__("Asignar a PI"), function() {
 				frm.call('get_data', { throw_if_missing: true })
 				.then(r => {
 					if (r.message) {
